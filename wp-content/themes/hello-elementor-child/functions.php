@@ -16,3 +16,17 @@ function hello_child_enqueue_parent_styles() {
 
 // Include additional php files
 require_once('lib/tracking.php');
+
+
+/**
+ * Sidebar for Hello Theme
+ * 
+ * @link https://docs.elementor.com/article/583-hello-theme
+ * 
+ * @link https://codex.wordpress.org/Widgetizing_Themes
+ * more ideads on custom widgets
+ */
+
+if (function_exists("register_sidebar")) {
+   register_sidebar();
+ }
