@@ -15,7 +15,7 @@ function hello_child_enqueue_parent_styles() {
 }
 
 // Include additional php files
-require_once('lib/tracking.php');
+// require_once('lib/tracking.php');
 
 
 /**
