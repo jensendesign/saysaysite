@@ -25,10 +25,6 @@ if (!defined('ABSPATH')) {
 
 <body <?php body_class(); ?>>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKZ938B&gtm_auth=9eXmjTsztYoM0aS2ex-oWg&gtm_preview=env-1&gtm_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <?php
     hello_elementor_body_open();
 
